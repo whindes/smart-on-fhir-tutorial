@@ -11,12 +11,12 @@
     <script>
       //setTimeout(waitAuth, 45000);
       
-      function waitAuth(){     
+      //function waitAuth(){     
         FHIR.oauth2.authorize({
           'client_id': '36f54104-c85a-4aa4-ad09-d621d113f33f',
           'scope':  'patient/Patient.read patient/Observation.read launch online_access openid profile'
         });
-      }
+      //}
     </script>
     <div class="spinner">
       <div class="bounce1"></div>
